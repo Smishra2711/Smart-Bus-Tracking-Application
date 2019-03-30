@@ -96,3 +96,24 @@
   </div>
   <button type="submit" name="save" class="btn btn-primary">Save Data</button>
 </form>
+<table class="table table-bordered">
+    <thead>
+      <tr>        
+        <th>Route</th>
+		<th>Source</th>
+		<th>Destination</th>
+      </tr>
+    </thead>
+	<?php
+             
+	$sql="SELECT * FROM routes";
+	$result_set=mysqli_query($con,$sql);
+	while($row=mysqli_fetch_array($result_set))
+	{
+		?>
+        <tr>
+        <td><?php echo $row['id']?></a></td>
+		<td><?php echo $row['source']?></td>
+        <td><?php echo $row['destination']?></td>
+        </tr>
+	<?php }?>
