@@ -20,6 +20,7 @@
           <a class="dropdown-item" href="#"></a>
 		  <a class="dropdown-item" href="addroute.php">Add Routes</a>
 		  <a class="dropdown-item" href="addbus.php">Add Bus</a>
+		  <a class="dropdown-item" href="addstop.php">Add Bus Stop</a>
 		  <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="trackbus.php">Track Bus</a>
           <a class="dropdown-item" href="">Delete Route</a>
